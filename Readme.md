@@ -1,26 +1,25 @@
-`This project has been created as part of the 42 curriculum by miaandri and safandri`
+This project has been created as part of the 42 curriculum by miaandri and safandri
 
 # Darkly
-
 ## 📖 Description
-Darkly est un projet d'initiation à la sécurité des applications web du cursus de l'école 42. L'objectif principal est de se familiariser avec les recommandations et les failles répertoriées par l'OWASP (Open Worldwide Application Security Project). À travers l'exploitation d'une application web vulnérable hébergée sur une machine virtuelle dédiée, le projet consiste à identifier différentes failles de sécurité, à récupérer des flags associés à chacune d'elles, et à comprendre comment corriger ces vulnérabilités.
+Darkly is a web application security initiation project from the 42 school curriculum. The main objective is to become familiar with the recommendations and vulnerabilities cataloged by OWASP (Open Worldwide Application Security Project). Through the exploitation of a vulnerable web application hosted on a dedicated virtual machine, the project consists of identifying various security flaws, retrieving flags associated with each of them, and understanding how to fix these vulnerabilities.
 
-## ⚙️ Méthodologie et Objectifs
-Le projet s'articule autour de l'analyse et de l'exploitation de multiples vecteurs d'attaques web classiques :
+## ⚙️ Methodology and Objectives
+The project revolves around the analysis and exploitation of multiple classic web attack vectors:
 
-- Reconnaissance : Analyse de la structure du site, des fichiers cachés et des robots.txt.
+- Reconnaissance: Analysis of the site's structure, hidden files, and robots.txt.
 
-- Exploitation de failles applicatives : Recherche et validation de vulnérabilités telles que les injections SQL, les failles XSS (réfléchies et stockées), le LFI (Local File Inclusion), ou encore les failles liées aux envergures de requêtes (User-Agent, Referer) et à la gestion des cookies.
+- Application Vulnerability Exploitation: Research and validation of vulnerabilities such as SQL injections, XSS flaws (reflected and stored), LFI (Local File Inclusion), as well as flaws related to request headers (User-Agent, Referer) and cookie management.
 
-- Documentation et Correction : Pour chaque faille identifiée, il s'agit de documenter le mode opératoire de l'exploitation ainsi que la méthode de remédiation (patch de sécurité) pour contrer la vulnérabilité.
+- Documentation and Remediation: For each identified flaw, the goal is to document the exploitation procedure as well as the remediation method (security patch) to counter the vulnerability.
 
-## 🛠️ Compétences Acquises
-Sensibilisation aux bonnes pratiques de développement sécurisé (Secure Coding).
+## 🛠️ Skills Acquired
+Awareness of secure development best practices (Secure Coding).
 
-Utilisation des standards de l'OWASP Top 10.
+Utilization of OWASP Top 10 standards.
 
-Analyse de code et manipulation d'en-têtes HTTP (Cookies, User-Agent, Referer).
+Code analysis and HTTP header manipulation (Cookies, User-Agent, Referer).
 
-Détection et exploitation de failles d'injection (SQLi) et de scripts inter-sites (XSS).
+Detection and exploitation of injection flaws (SQLi) and cross-site scripting (XSS).
 
-Mise en place de correctifs de sécurité robustes.
+Implementation of robust security fixes.
